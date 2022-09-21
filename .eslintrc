@@ -6,7 +6,7 @@
 	"extends": [
 		"plugin:react/recommended",
 		"airbnb",
-		"prettier",
+		"plugin:prettier/recommended",
 		"plugin:@typescript-eslint/recommended",
 		"plugin:import/typescript"
 	],
@@ -28,6 +28,9 @@
 				"unnamedComponents": "arrow-function"
 			}
 		],
+		"prettier/prettier": ["error",{
+			"endOfLine": "auto"}
+		  ],
 		"no-use-before-define": "off",
 		"react/react-in-jsx-scope": "off",
 		"react/jsx-props-no-spreading": "off",

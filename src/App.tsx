@@ -1,5 +1,7 @@
+import { FC } from 'react';
+import { ThemeProvider } from '@mui/material';
+import { theme } from './utils/theme/leader-board-theme';
 
-
-const App = () => ( <h1> ffgfgg </h1>)
+const App: FC = () => <ThemeProvider theme={theme} />;
 
 export default App;
