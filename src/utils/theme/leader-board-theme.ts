@@ -1,4 +1,5 @@
 import { createTheme } from '@mui/material';
+import { LEADER_BOARD_COLORS } from '../constans/leader-board-colors';
 
 export const theme = createTheme({
     components: {
@@ -25,5 +26,9 @@ export const theme = createTheme({
                 }
             }
         }
+    },
+    palette: {
+        primary: { main: LEADER_BOARD_COLORS.mainBlue },
+        secondary: { main: LEADER_BOARD_COLORS.mainOrange }
     }
 });
