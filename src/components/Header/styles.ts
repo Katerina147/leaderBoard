@@ -1,15 +1,18 @@
-import { theme } from '../utils/theme/leader-board-theme';
+import { theme } from 'utils/theme/leader-board-theme';
 
 export const MUI_HEADER_STYLES = {
+    customHeaders: {
+        fontFamily: 'MontserratSemiBold',
+        fontSize: '22px'
+    },
     boxWrapper: {
         backgroundColor: theme.palette.primary.main,
         padding: '5px',
         borderRadius: '10px',
-        width: '1200px',
-        height: '190px',
+        height: '180px',
         margin: '20px auto 36px',
         paddingTop: '10px',
-        color: '#fff'
+        color: theme.palette.primary.contrastText
     },
     spanWrapper: {
         color: theme.palette.secondary.main,
