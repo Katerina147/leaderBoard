@@ -29,6 +29,13 @@ export const theme = createTheme({
                     borderRadius: LEADER_BOARD_STYLES.customBorderRadius
                 }
             }
+        },
+        MuiModal: {
+            styleOverrides: {
+                root: {
+                    borderRadius: LEADER_BOARD_STYLES.customBorderRadius
+                }
+            }
         }
     },
     palette: {
