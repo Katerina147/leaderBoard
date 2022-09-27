@@ -2,7 +2,7 @@ import { ChangeEvent, FC } from 'react';
 import { TextField } from '@mui/material';
 
 interface CustomInputProps {
-    onChange: (
+    onChange?: (
         event: ChangeEvent<HTMLTextAreaElement | HTMLInputElement>
     ) => void;
     value: string | number;

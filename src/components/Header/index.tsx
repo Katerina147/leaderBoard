@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import { makeStyles } from '@mui/styles';
 import { Container, Box, Grid } from '@mui/material';
-import HeaderImg from 'assets/img/header.png';
+import HeaderImg from 'assets/img/HeaderImg.png';
 import { MUI_HEADER_STYLES } from './styles';
 
 const useStyles = makeStyles(MUI_HEADER_STYLES);
